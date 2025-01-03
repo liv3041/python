@@ -1,0 +1,47 @@
+Four primary built in data structure of python:
+1. Lists
+2. Tuples
+3. Dictionaries
+4. Sets
+
+# Sets
+
+    Sets are like dictionaries with only keys.
+
+    Value of sets:
+        1. eliminating duplicates.
+        2. membership testing
+        3. set operations
+
+# Lists
+
+        Data value that contains sub value and organize in a specific way. 
+        Lists are sequential.
+                        _________________________________________
+                        | first | A | B | C | D | E | F | Last |
+                        |_______|___|___|___|___|___|___|______|
+                            0     1   2   3   4   5   6    7
+
+# Tuples
+     - Tuples are immutable. Immutability means we can rely on it not changing.
+     - Tuple semantics hep minimize side effects.
+     - Simpler means more efficient and faster.
+
+
+# Dictionaries
+
+        Key value data
+            __________________________________________________
+            |                                                 |
+            |   __________                                    |
+            |   | 'QX'   |                                    |
+            |   |________|_                                   |
+            |     'code'                                      |
+            |            ________                             |
+            |            |  15  |                             |
+            |            |______|                             |
+            |             'price'                             |
+            |                                                 |
+            |                                                 |
+            ___________________________________________________
+

@@ -1,0 +1,30 @@
+
+Basic Rules:
+1. Blocks can contain statements and expressions.
+2. Expressions can be combined to create more complex expressions.
+3. Most statements contain one or more expressions and nested blocks.
+
+Expressions:
+1. Represent the idea of using input data to deterine output data.
+2. 5 is very simple expression; the input is the number 5, and then we do nothing
+   to it, so the output is also the umber 5.
+3. 7+3 is also an expression, which combines two other expressions to figure
+   out an output value of 10, and (7+3)-8 is an expression too.
+
+Statements:
+
+1. Must be placed directly inside a  block.
+2. Do not 'snap together' the way expressions do.
+3. Express ideas like 'execute these instructions multiple times' or 
+  'decide whether to execute these instructions'.
+
+Blocks:
+
+1. Every python source code file is a block.
+2. Many statements contain nested blocks.
+3. Nested blocks start with a colon (:) at the end of a line, and then
+   the lines of the block are indented.
+
+   
+
+

@@ -1,0 +1,27 @@
+Variable is a name given to a piece of information.
+
+Reasons for variable:
+ 1. makes code easier.
+ 2. stores final value of the expression.
+ 3. easy to follow
+
+var_name = 12
+greet = "hello" -> This is a variable assignment statement. 
+                
+greet + ' world' -> This is an expression that uses the value of the 
+                    variable greet
+
+Variable Names:
+
+1. Must start with a letter or an underscore, such as: _underscore or underscore_
+2. May consist of letters, numbers, and underscores such as: password1, n00b, u_nder_score
+3. Should be descriptive and easy to read:
+  - CamelCase
+  - snake_case
+  - ALL_CAPS
+  x streamofconsciounesscase
+  x single letter names should not store important values or to be used on more than 
+    a couple of lines.
+ - Starting with a _symbol is a python convention that means "don't mess with this"
+ 
+
