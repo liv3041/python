@@ -1,0 +1,31 @@
+Inheritance
+
+- Reusing or inherit part of any class, common features, or class specific features.
+Types of inheritance:
+1. Single inheritance.
+2. Multiple inheritance
+3. Multilevel inheritance
+4. Hierarchical inheritance.
+5. Hybrid inheritance.
+
+
+Single Inheritance:
+- Child class inherits a parent class.
+    Eg: class A inherits attributes of class B
+
+Multiple Inheritance:
+- Child class inherits from more than on class.
+    Eg: class son or class daughter will inherit from both the attributes class father and class mother
+
+Multilevel Inheritance:
+- Class Inherits from Parent class, furthermore another class inherits from the class that inherited from Parent class.
+Eg: vehicle can be associated with Car and Car can be associated further with SUV.
+
+Hierarchical Inheritance:
+- More than one class inherits from a single class.
+
+Hybrid Inheritance:
+- Combination of any two types of inheritance.
+Eg: hierarchical and multilevel or multiple hierarchical inheritance.
+
+

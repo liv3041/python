@@ -1,0 +1,54 @@
+Class:
+- A class is a logical collection of data or blueprint of an software object.
+- It is the definition of an entity(or group of entities) that has specific attributes/characteristics.
+- For example:vehicle, animal, student, and so on.
+
+
+
+                  |-> truck
+class (vehicles) -|
+                  |-> car
+
+Objects: 
+
+
+Class Variable: - Is a parameter defined within a class.
+               
+Instance Variables: - Variables owned by instance of a class.
+                    - For each object or instance of a class, the instance variables are different.
+                    - They are defined within main method.
+    
+
+Allocating Memory: -Methods and variables are created on stack memory.
+                   - Object and instance variabless are created on heap memory.
+                   - New stack frame is created on invocation of a function/method
+
+Garbage Collector: - Stack frames are destroyed as soon as function/method returns.
+                   - Mechanism cleans up the dead objects.
+
+Constructors:
+    
+    Deploying Constructors:
+    - Constructors method starts with def__init__
+    - First parameter must be self, as it passes a reference to the instance of the
+      class itself.
+    - Additional parameters can be pushed -carModel and carYear are two parameters to be sent when 
+      a new object is to be created.
+
+    Defining Constructor:
+        def__init__(self, carModel, carYear):
+          self.model = carModel
+          self.year = carYear
+    
+Destructors:
+    - A destructor is used to delete or erase the existance of a created object.
+    - Garbage collector - frees up memory associated with the object
+    - Destructor also deals with deleting the resource other than the memory and performs
+      final clean up.
+    - A class can implement the special method __del__() called a destructor, that is invoked
+      when the instance is about to be destroyed.
+
+      Class Car:
+       def __del__(self):
+         class_name = self.__class__.name__
+         print(class name,"destroyed")

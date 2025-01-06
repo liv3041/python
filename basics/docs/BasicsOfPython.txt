@@ -24,7 +24,3 @@ Blocks:
 2. Many statements contain nested blocks.
 3. Nested blocks start with a colon (:) at the end of a line, and then
    the lines of the block are indented.
-
-   
-
-
