@@ -31,3 +31,7 @@ def main():
 if __name__ == "__main__":
     main()
     
+""""
+Name classes with UpperCamelCase and functions with lowercase_with_underscore.
+Always use self as the name for the first method argument.
+"""
