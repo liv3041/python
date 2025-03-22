@@ -1,0 +1,20 @@
+Monolithic:
+
+- A large single upright block of stone, especially one shaped into or serving as a pillar or monument.
+- A big unit of code that does everything we need.
+
+Microservices:
+- Each feature or each microproduct is encapsulated in a service.
+- Each microservice handles/ manages just one of them.
+- The interface between microservice is standardized, and typically they are HTTP(s) APIs
+- The change just triggers the redeployment of one service plus the one in cascade (if the interface changes)
+- There are multiple repositories, each with their unit tests, plus an integration test that tests their integration.
+
+Pros:
+- Each microservice specializes on just one fuctionality
+- Multiple teams can work at the same time on different microservices, without any problems associated with touching the same file.
+- Scaling is simpler, that is, add a new microservice.
+
+Cons:
+- You may lose the visibility of the whole.
+- Interfaces are crucial and must be standardized.

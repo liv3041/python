@@ -24,3 +24,18 @@ Blocks:
 2. Many statements contain nested blocks.
 3. Nested blocks start with a colon (:) at the end of a line, and then
    the lines of the block are indented.
+
+Python Packages: 
+- A package contains a python module (which comprises multiple directories, .py files, and other resource files)
+- Its versioned (usually in the form aa.bb.cc)
+- Its usually installed/uninstalled/updated via pip, easy_install, conda, and commands.
+- Do not confuse the package with the module. Eg: scikit-learn and sklearn.
+
+Pip:
+- pip is standard package manager used by Python.
+- It is sometimes not installed by default.
+
+Version your package:
+- assign version argument a higher number in setup.py file.
+- upload your package.
+- pip install and pip upgrades will download a newer version.

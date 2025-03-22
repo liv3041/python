@@ -1,0 +1,6 @@
+Argument Behaviour:
+
+
+In programming there are two ways in which arguments are passed:
+1. pass by value
+2. pass by refernce
